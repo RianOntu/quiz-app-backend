@@ -1,7 +1,7 @@
 require('dotenv').config()
-const app = require('./src/app')
-const sequelize = require('./src/config/database')
-const config = require('./src/config/config')
+const app = require('./app')
+const sequelize = require('./config/database')
+const config = require('./config/config')
 
 const startServer = async () => {
   try {
